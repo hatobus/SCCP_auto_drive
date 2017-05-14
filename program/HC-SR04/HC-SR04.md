@@ -57,3 +57,6 @@ $$\frac{340 \times t}{1000000 \times 100} = \frac{340 \times t}{1000} \times \fr
   h \approx 10.824
 \end{eqnarray}
 つまり，これを2倍するので，21.648cmの幅で距離が計測されることに気をつけたい．
+
+github上ではmarkdownに書かれた数式が反映されないようなので数式がどのようなものであるか
+確認したい際は ![こちら](https://goo.gl/yyLp5l) をご覧ください．
