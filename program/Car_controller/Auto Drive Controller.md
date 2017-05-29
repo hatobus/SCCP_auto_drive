@@ -11,3 +11,4 @@ jupyter notebook上から制御ができるようになるためには，jupyter
 
 GitHub : https://github.com/jupyter-widgets/ipywidgets
 
+ちなみに ipywedgets のガイドはこちら http://ipywidgets.readthedocs.io/en/latest/index.html
