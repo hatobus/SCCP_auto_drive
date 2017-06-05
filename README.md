@@ -14,10 +14,15 @@
     [購入](http://akizukidenshi.com/catalog/g/gK-06489/)
     [データシート](http://akizukidenshi.com/download/ds/akizuki/AE-MOTOR8830_manual.pdf)
     
- - 測距モジュール HC-SR40
-    Amazonで購入，超音波型です．安いのが特徴で6個程搭載しています．これはGPIOで動くのでI2Cよりは操作がしやすいと思います．
+ - ~~測距モジュール HC-SR40
+    Amazonで購入，超音波型です．安いのが特徴で6個程搭載しています．これはGPIOで動くのでI2Cよりは操作がしやすいと思います．~~
     [購入](http://amzn.asia/jd95G4C)
     [データシート](http://akizukidenshi.com/download/ds/sainsmar/hc-sr04_ultrasonic_module_user_guidejohn_b.pdf)
+	
+ - 測距モジュール LV-EZ1
+ 	HC-SR40を使用すると，精度が出ず，値がバラバラになる．そのため，同じ超音波を使って測距するLV-EZ1を使用した．PWM制御ができ，GPIOピンを一つしか使用しないのである程度は使いやすい．
+	[購入](https://www.switch-science.com/catalog/139/)
+	[データシート](http://maxbotix.com/documents/LV-MaxSonar-EZ_Datasheet.pdf)
 
  - ギアボックス ダブルギヤボックス 左右独立4速タイプ 
     amazonなどで購入することができます.左右独立なので小回りを利かせることができます．
