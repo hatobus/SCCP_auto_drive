@@ -26,7 +26,7 @@ PWM制御なのでPWMの部分にピンを接続．
 
 実際に行っていることとしては,前までに使用していたHC-SR04のプログラムとほぼ同じである．
 GPIOのピンが一本だけになったが，これ一本でも制御が可能になる．
-```
+``` distance.py
 import time
 import RPi.GPIO as GPIO
 
