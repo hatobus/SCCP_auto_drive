@@ -13,11 +13,11 @@
 ## 配線
 配線は以下の通り，今回はPWMのピンをGPIOで制御する．
 
-![](https://i.imgur.com/uwPXDNt.png)
+![](/img/connect.png)
 
 PWM制御なのでPWMの部分にピンを接続．
 
-![](https://i.imgur.com/uUa3yBu.jpg)
+![](/img/lvez1.jpg)
 
 左から GND(-) VCC(+) 5.0V GPIO(ここではGPIO15) に接続する．
 これで接続自体は完了する．あとはプログラムを走らせるのみ．
@@ -62,7 +62,7 @@ def measure():
   # Wait for end of echo response
     while GPIO.input(GPIO_TRIGECHO)==1:
         stop = time.time()
-  
+
     GPIO.setup(GPIO_TRIGECHO, GPIO.OUT)
     GPIO.output(GPIO_TRIGECHO, False)
 
@@ -82,5 +82,5 @@ except KeyboardInterrupt:
     print("Stop")
     GPIO.cleanup()
 ```
-    
+
 これを実行すると，一秒間隔で値を取得できる．HC-SR04と比べた結果，LV-EZ1のほうが信頼性が高いことが分かる．
