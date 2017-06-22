@@ -92,3 +92,11 @@ class LCD():
         time.sleep(times)
         self.lcd_byte(0x01, LCD_CMD)
         
+    def LCD_Full(self,messege_upper,messege_lower,times):
+        messege_upper = str(messege_upper)
+        messege_lower = str(messege_lower)
+        self.lcd_string(messege_upper,LCD_LINE_1)
+        self.lcd_string(messege_lower,LCD_LINE_2)
+        time.sleep(times)
+        self.lcd_byte(0x01, LCD_CMD)
+        
