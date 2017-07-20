@@ -3,6 +3,9 @@ import RPi.GPIO as GPIO
 
 GPIO.setmode(GPIO.BCM)
 
+global start
+global stop
+
 class Dist():
     
     def __init__(self):
