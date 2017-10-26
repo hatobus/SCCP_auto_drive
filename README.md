@@ -37,3 +37,8 @@
   Jupyter notebookというIPython notebookのフレームワークを用い，ssh接続などをせずブラウザ上でファイルを編集することができます．
   
   元はデータ処理のフレームワークだったこともあり，のちのディープラーニングのステップでの使用を見越した利用になります．
+
+### Raspberry piのホスト名について
+  ホスト名は，研究室で使っていて，固定IPにするとRaspberry piが死ぬことになるので，Raspberry piのホスト名をHatopiに変更．
+  これにより，Bounjourを使用して，`ssh pi@Hatopi.local`でssh接続ができるようになる．
+  これでIPが変更されても，sshで入ってIPを確認することができる．
