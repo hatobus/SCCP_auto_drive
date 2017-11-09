@@ -42,3 +42,4 @@
   ホスト名は，研究室で使っていて，固定IPにするとRaspberry piが死ぬことになるので，Raspberry piのホスト名をHatopiに変更．
   これにより，Bounjourを使用して，`ssh pi@Hatopi.local`でssh接続ができるようになる．
   これでIPが変更されても，sshで入ってIPを確認することができる．
+  2017/11/09   Raspberry piのパスワードを変更
