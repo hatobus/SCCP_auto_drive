@@ -39,3 +39,13 @@ class Dist():
         distance = (elapsed * 34300)/2.0
         time.sleep(0.1)
         return distance
+
+if __name__ == '__main__':
+    LVEZ1 = Dist()
+
+    print("To start measurement")
+    for i in range(10):
+        print(LVEZ1.Measure(YOUR_GPIO_PIN))
+        time.sleep(1)
+
+    print("end")
