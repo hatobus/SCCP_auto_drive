@@ -6,16 +6,16 @@ GPIO.setmode(GPIO.BCM)
 global start
 global stop
 
+
 class Dist():
-    
     def __init__(self):
         pass
-    
-    def Measure(self,gp):
+
+    def Measure(self, gp):
         GPIO_TRIGECHO = gp 
-        GPIO.setup(GPIO_TRIGECHO,GPIO.OUT)
+        GPIO.setup(GPIO_TRIGECHO, GPIO.OUT)
         GPIO.output(GPIO_TRIGECHO, False)
-      # This function measures a distance
+        # This function measures a distance
       # Pulse the trigger/echo line to initiate a measurement
         GPIO.output(GPIO_TRIGECHO, True)
         time.sleep(0.00001)
@@ -39,3 +39,14 @@ class Dist():
         distance = (elapsed * 34300)/2.0
         time.sleep(0.1)
         return distance
+
+if __name__ == '__main__':
+    LVEZ1 = Dist()
+
+    print("To start measurement")
+
+    for i in range(10):
+        print(LVEZ1.Measure(YOUR_GPIO_PIN))
+        time.sleep(1)
+
+    print("END")
