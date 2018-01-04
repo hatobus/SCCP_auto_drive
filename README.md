@@ -32,6 +32,8 @@ I want to Shishi
     amazonなどで購入することができます.左右独立なので小回りを利かせることができます．
     [購入](http://amzn.asia/8rwZjWK)
     
+ - タイヤ 楽しい工作シリーズ（パーツ） No.111 スポーツタイヤセット （56mm径） [購入](http://www.tamiya.com/japan/products/70111/index.html)
+ 
  - ブレッドボード * 2
  - Raspberry pi 3
  - ジャンパケーブル
