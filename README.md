@@ -1,5 +1,9 @@
 # SCCP_auto_drive
 
+I want to Shishi 
+
+[![SUSHI-WARE LICENSE](https://img.shields.io/badge/license-SUSHI--WARE%F0%9F%8D%A3-blue.svg)](https://github.com/MakeNowJust/sushi-ware)
+
 ## 最初に
 
 これは会津大学課題プロジェクト「自動車の自動運転」についてのレポジトリとなります．
@@ -28,6 +32,8 @@
     amazonなどで購入することができます.左右独立なので小回りを利かせることができます．
     [購入](http://amzn.asia/8rwZjWK)
     
+ - タイヤ 楽しい工作シリーズ（パーツ） No.111 スポーツタイヤセット （56mm径） [購入](http://www.tamiya.com/japan/products/70111/index.html)
+ 
  - ブレッドボード * 2
  - Raspberry pi 3
  - ジャンパケーブル
